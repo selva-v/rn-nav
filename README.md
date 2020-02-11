@@ -13,7 +13,7 @@ You will need the following things installed on your computer.
 ## Installation
 
 * `git clone https://github.com/selva-v/rn-nav.git`
-* `cd rn-flix-wiki`
+* `cd rn-nav`
 * `npm install`
 
 ## Running / Development
