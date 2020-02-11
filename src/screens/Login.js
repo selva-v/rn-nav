@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity, Button } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
 const Login = ({navigation}) => {
@@ -16,9 +16,10 @@ const Login = ({navigation}) => {
 						<Ionicons name='ios-key' size={25} style={styles.textInputIcon} />
 						<TextInput placeholder='Password' secureTextEntry={true} style={styles.textInput} />
 					</View>
-					<TouchableOpacity onPress={() => navigation.navigate("Dashboard")} activeOpacity={0.8} style={styles.loginButton}>
+					<TouchableOpacity /* onPress={() => navigation.navigate("Dashboard")} */ activeOpacity={0.8} style={styles.loginButton}>
 						<Text style={styles.loginText}>Login</Text>
 					</TouchableOpacity>
+          <Button title="Register" onPress={() => navigation.navigate('Register')} />
 			</View>
     </View>
   );
