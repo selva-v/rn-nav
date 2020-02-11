@@ -1,5 +1,5 @@
 # Navigations
-React Native navigation example
+React Native navigations example
 
 
 ## Prerequisites
